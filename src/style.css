@@ -1,0 +1,154 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    background-image: url(../dist/background.jpg);
+    background-size: cover;
+}
+
+.main-container {
+    margin-top: 50px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-container {
+    margin: 0 8px 0 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+}
+
+.search-box { 
+    height: 25px;
+    width: 250px;
+    border: 1px solid rgba(255, 255, 255, 0.902);
+    background-color: rgba(208, 208, 208, 0.224);
+    color: white;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 340px) {
+   .search-box { width: 190px; }
+}
+
+.search-box:focus {
+    outline: none;
+}
+
+.search-box::placeholder {
+    color: rgb(228, 228, 228);
+}
+
+.search-box_submit {
+    height: 29px;
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.902);
+    color: white;
+    font-size: 16px;
+}
+
+.search-box_submit:hover {
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.35);
+}
+
+.user-directions-container > p{
+    font-size: 12px;
+    margin: 4px 0 0 0;
+}
+
+.format-text {
+    color: rgb(241, 241, 241);
+}
+
+.error-message {
+    text-align: center;
+    color: rgb(255, 2, 2);
+}
+
+.location-heading {
+    margin-bottom: 0;
+}
+
+.toggle-units-button {
+    text-align: left;
+    font-size: 16px;
+    padding-left: 2px;
+    padding-right: 10px;
+    border: none;
+    background: none;
+    color: rgb(255, 255, 255);
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+}
+
+.toggle-units-button:hover {
+    cursor: pointer;
+}
+
+.data-display-container {
+    margin: 50px 15px 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.location-data-container {
+    display: flex;
+    gap: 18px;
+}
+
+.location-data-container > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-temp-container > p {
+    margin: 10px 0 10px 0;
+}
+
+.temp {
+   font-size: 30px;
+}
+
+.humidity {
+    font-size: medium;
+}
+
+.feels-like {
+    font-size: medium;
+}
+
+.weather-details-container {
+    border-left: 1px solid rgba(230, 230, 230, 0.718);
+}
+
+.weather-details-container > p {
+    margin: 10px 0 10px 18px;
+}
+
+.main-weather_icon {
+    font-size: 34.5px;
+}
+
+.main-weather_text {
+    font-size: medium;
+
+}
+
+.wind-speed {
+    font-size: medium;
+
+}
+
+.hide {
+    display: none;
+}
