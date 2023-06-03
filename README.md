@@ -10,7 +10,7 @@ Project prompt [here](https://www.theodinproject.com/lessons/node-path-javascrip
 
 ## Overview
 
-**Feautures:**
+**Features:**
 - Displays weather data for the entered location using the OpenWeather API
 - Toggle between imperial and metric units for the weather display
 - Displays error message if API response if unsuccessful
