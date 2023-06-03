@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title> &#x2601 Current Weather</title>
+</head>
+
+<body>
+    <script src="bundle.js" defer></script>
+    <div class="main-container">
+        <div class="search-container"> 
+            <input class="search-box" type="text" placeholder="Enter location">
+            <button class="search-box_submit" type="submit">Search</button>
+        </div>
+        <div class="user-directions-container">
+            <p class="format-text">Enter 'city'; 'city, country'; or 'city, state, country'</p>
+            <p class="error-message hide"> <strong>Error: </strong>Check spelling and format.</p>
+        </div>
+        <div class="data-display-container">
+            <div>
+                <h3 class="location-heading">--</h3>
+                <button class="toggle-units-button" title="toggle units">°F</button>
+            </div>
+            <div class="location-data-container">
+                <div class="main-temp-container">
+                    <p class="temp">--</p>
+                    <p class="humidity">--</p>
+                    <p class="feels-like">--</p>
+                </div>
+                <div class="weather-details-container">
+                    <p class="main-weather_icon material-symbols-outlined">--</p>
+                    <p class="main-weather_text">--</p>
+                    <p class="wind-speed">--</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
